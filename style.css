@@ -1,0 +1,449 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.navp{
+    
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(250, 218, 181);
+    box-shadow: 3px 3px 3px rgb(146, 145, 145);
+    margin-top: -8px;
+    width: 1535px;
+    margin-left: -8px;
+
+}
+.nav{
+    /* border: red solid; */
+    font-weight: bolder;
+    color: rgb(221, 129, 8);
+   
+
+}
+#nav0{
+    margin-top: -13px;
+}
+.nav:hover{
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 1s;
+    /* background-color: white; */
+}
+.nav a{text-decoration: none;
+    color: rgb(221, 129, 8);
+    
+    
+    
+
+}
+.nav a:hover{
+    text-shadow: 3px 3px 3px rgb(179, 177, 177);
+    
+}
+#nav1{
+    margin-left: 640px;
+}
+.in1{
+    border: 2px solid rgb(253, 139, 9);
+    border-radius: 3px;
+}
+.in2{
+    margin-left: 5px;
+    background-color: rgb(255, 165, 87);
+    border: 2px solid rgb(253, 139, 9);
+    border-radius: 3px;
+    
+}
+.in2:hover{
+    background-color: rgb(248, 209, 136);
+    cursor: pointer;
+    
+}
+.logotxt{
+    margin-top: -18px;
+    margin-left: 1px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(236, 153, 29);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(196, 190, 190);
+    
+}
+.backimg{
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+    height: 620px;
+    width: 1533px;
+    margin-left: -8px;
+    background-image: url('game.png');
+    background-size: 1600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+     
+}
+
+
+.cont{
+    
+    width: 200px;
+    text-align: center;
+    margin-left:634px;
+    margin-top: 40px;
+    
+
+}
+#cont1{
+    margin-left: 600px;
+}
+#cont2{
+    margin-left: 652px;
+    margin-top: -30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(236, 153, 29);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(196, 190, 190);
+    font-size: 40px;
+}
+#cont3{
+    margin-left: 652px;
+    font-size: 25px;
+    color: blanchedalmond;
+    
+    
+}
+#cont4{
+    margin-top: 21px;
+    margin-left: 652px;
+    text-shadow: 5px 5px 5px white;
+   
+    
+}
+#cont4 button{
+    background-color: rgb(235, 139, 104);
+    border: rgb(250, 90, 32) solid;
+    border-radius: 3px 3px 3px;
+    
+}
+#cont4 button:hover{
+    background-color: rgb(247, 172, 147);
+    cursor: pointer;
+}
+.gameinP{
+    display: grid;
+    grid-template-columns: 640px 640px;
+    
+    height: 2600px;
+    
+    width: 1533px;
+    margin-left: -8px;
+   
+    justify-content: center;
+    align-items: center;
+    grid-gap: 115px;
+    background-image: url('wall.jpg');
+    background-position: center;
+}
+.gamein{
+   
+    height: 440px;
+    width: 640px;
+    padding: 20px;
+    /* margin: auto; */
+    font-weight: bolder;
+    margin-left: -23px;
+    margin-top: 20px;
+    color: white;
+    
+    border-radius: 12px;
+}
+.gamein:hover{
+    box-shadow: 3px 3px 5px white;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.7s;
+
+}
+#gamein1{
+    background-image: url('farcry.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gamein2{
+    background-image: url('warzone.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gamein3{
+    background-image: url('gta.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gamein4{
+    background-image: url('battle.jpg');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gamein5{
+    background-image: url('pubg.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gamein6{
+    background-image: url('forza.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gamein7{
+    background-image: url('hitman.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gamein8{
+    background-image: url('rdr.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    background-color: rgb(44, 44, 44);
+    
+    height: 500px;
+    margin-left: -16px;
+    margin-right: -28px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 1540px;
+    
+    
+    
+}
+.foot{
+   
+    
+    height: 478px;
+    width: 301px;
+    margin: auto;
+    
+    
+}
+.foot li{
+    list-style: none;
+    color: rgb(209, 209, 209);
+    font-size: 15px;
+}
+
+    
+
+.foot li:first-child{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.f765{
+    color: whitesmoke;
+    
+    border-bottom-color: rgb(253, 253, 253);
+    border-bottom-style: solid;
+    position: absolute;
+    top: 3635px;
+    left: 45px;
+    width: 1400px;
+    text-align: center;
+}
+.g564{
+    color: whitesmoke;
+    position: absolute;
+    top: 3667px;
+    left: 320px;
+}
+
+.g2cont{
+    
+    height: 1100px;
+    margin-top: 4px;
+    margin-left: -8px;
+    width: 1411px;
+    padding: 300px 100px 20px 20px;
+    color: cornsilk;
+    box-shadow: 5px 5px 5px black;
+}
+.f766{
+    color: whitesmoke;
+    
+    border-bottom-color: rgb(253, 253, 253);
+    border-bottom-style: solid;
+    position: absolute;
+    top: 1870px;
+    left: 45px;
+    width: 1400px;
+    text-align: center;
+}
+.g565{
+    color: whitesmoke;
+    position: absolute;
+    top: 1911px;
+    left: 344px;
+}
+.anc1{
+    text-decoration: none;
+}
+.btn657{
+    position: absolute;
+    top: 796px;
+    left: 685px;
+    border: coral solid;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 3px;
+    background-color: rgb(224, 140, 70);
+
+}
+.btn657:hover{
+    cursor: pointer;
+    background-color: rgb(243, 160, 129);
+
+}
+#g21{
+    background-image: url('farcry2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2500px;
+}
+.g2cont h1{
+    text-align: center;
+}
+#g22{
+    background-image: url('warzone2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2500px;}
+#g23{
+        background-image: url('forza2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 2500px;}
+#g24{
+            background-image: url('hitman2.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 2500px;}
+#g25{
+                background-image: url('battlefield2.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 2500px;}
+#g26{
+                    background-image: url('rdr22.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 2500px;}
+#g27{
+                        background-image: url('gta52.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 2500px;
+                    }
+.upperpr{
+display: flex;
+flex-direction: row;
+}
+.uppercont{
+    border: rgb(255, 145, 0) solid;
+    height: 90px;
+    
+    width: 100px;
+}
+#up1{
+    width: 200px;
+    border-left:none ;
+    border-top: none;
+    border-right: none;
+    margin-top: -6px;
+    
+}
+#up4{
+    width: 1160px;
+    border-left:none ;
+    border-top: none;
+    border-right: none;
+    margin-top: -6px;
+    margin-left: 15px;
+}
+.uppercont{
+    margin-top: -9px;
+}
+#up2{
+    transform: skew(-20deg);
+    border-right: none;
+    border-bottom: none;
+    margin-left: 15px;
+    
+}
+#up3{
+    transform: skew(20deg);
+    border-left: none;
+    border-bottom: none;
+    
+}
+.imgpr{
+    margin-left: 618px;
+    border: rgb(248, 173, 10) solid 7px;
+    border-style:inset;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px white;
+}
+#g298{
+    background-image: url('about2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2500px;}
+
+.nav1s{
+    
+    height: 110px;
+    margin-top: -23px;
+    position: absolute;
+    width: 70px;
+    margin-left: -3px;
+    
+   
+    display: none;
+}
+/* #nav1:hover .nav1s{
+   display: block;
+} */
+.nav1ss{
+    text-align: center;
+    height: 20px;
+    background-color: rgb(250, 218, 181);
+    font-size: 10px;
+    padding: 5px;
+    
+}
+#nav1dd{
+    margin-top: 21px;
+}
+#nav1:hover .nav1s{
+    display: block;
+    cursor: pointer;
+   
+}
+.nav1ss:hover{
+    background-color: rgb(248, 200, 155);
+}
+

@@ -1,0 +1,66 @@
+
+.navp{
+    width: 1280px;
+}
+.backimg{
+    width: 1280px;
+    margin-left: -8px;
+}
+#cont1 img{
+    margin-left: -230px;
+
+}
+#cont3{
+  margin-left: 481px;  
+}
+#cont2{
+    margin-left: 481px;  
+  }
+#cont4{
+    margin-left: 481px;  
+  }
+         
+.gameinP{
+  width: 1280px;
+  grid-template-columns: 540px 540px;
+}
+.f45{
+  width: 1287px;
+
+}
+.f765{
+  width: 1200px;
+}
+.g564{
+  left: 283px;
+  width: 744px;
+  
+}
+.gamein{
+  height: 300px;
+  width: 550px;
+  padding-top: 5px;
+}
+.g2cont{
+  width: 1155px;
+}
+.f766{
+  width: 1200px;
+  top: 2382px;
+}
+footer{
+  height: 1500px;
+}
+.g565{
+  top: 2426px;
+  left: 430px;
+  width: 463px;
+}
+.btn657{
+  width: 70px;
+  left: 550px;
+}
+.imgpr{
+  margin-left: 501px;
+  
+}
